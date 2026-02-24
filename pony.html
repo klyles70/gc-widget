@@ -1,1 +1,22 @@
-<div id="gc-scoreboard-widget-bp30"></div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GameChanger Widget</title>
+    <style>body { margin: 0; padding: 0; overflow: hidden; }</style>
+</head>
+<body>
+    <!-- YOUR GAMECHANGER DIV GOES HERE -->
+   <div id="gc-scoreboard-widget-bp30"></div>
+
+    <!-- Put this before the closing </body> tag -->
+<script src="https://widgets.gc.com/static/js/sdk.v1.js"></script>
+<script>
+    window.GC.scoreboard.init({
+        target: "#gc-scoreboard-widget-bp30",
+        widgetId: "97f693d1-e9b0-4c9c-b1a1-9027f1792e79",
+        maxVerticalGamesVisible: 4,
+    })
+</script>
+
+</body>
+</html>
